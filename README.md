@@ -68,7 +68,7 @@ First you need to create a migration for the `appointments` table.
 - An `Appointment` belongs to a `Doctor`, and to a `Patient`. Be sure to include any columns in your table necessary to establish these relationships
 - The `appointments` table should also have a `date` column that stores a string, and a  `time` column that stores a string.
 
-Once you have created the `appointments` table, use the `seeds.rb` file to create instances of the `Appointment` class to test your code.
+Once you have created the `appointments` table, run the `seeds.rb` file to create instances of each class to test your code.
 
 ### Object Relationship Methods
 
