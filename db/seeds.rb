@@ -8,4 +8,4 @@ puts "Creating Patients..."
 
 puts "Creating Appointments..."
 
-10.times{Appointment.create(doctor_id: rand(1..5), patient_id: rand(1..5), date: Faker::Date.between(from: '2021-11-01', to: '2021-12-23'), time: '2:00' }
+10.times{Appointment.create(doctor_id: rand(1..5), patient_id: rand(1..5), date: Faker::Date.between(from: '2021-11-01', to: '2021-12-23'), time: '2:00') }
