@@ -108,7 +108,7 @@ Use the rake console to check that all of these methods work before proceeding. 
     - returns a unique array of all the `Patient` names this `Doctor` has `apppointments` with
 - `Doctor#schedule_appointment(patient, date, time)` 
     - takes a `Patient` instance and two strings for `date` and `time` as arguments
-    - creates a new instance of an `Appointment` with that `date`, `time`, and `Patient`
+    - creates a new instance of an `Appointment` with that `date`, `time`, and `Patient` associated with the instance of `Doctor` that the method was called on.
     - returns the new `Appointment` instance
 - `Doctor.least_patients`
     - returns the instance of `Doctor` with the least patients
