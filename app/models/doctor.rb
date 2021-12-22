@@ -21,4 +21,12 @@ class Doctor < ActiveRecord::Base
         # method should delete all appointments associated with instance of doctor
     end
 
+    def test
+        Doctor.find_each do |d|
+            puts d
+        end
+    end
 end
+
+
+
